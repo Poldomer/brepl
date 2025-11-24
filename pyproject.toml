@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brepl"
+version = "0.1.0"
+description = "A headless universal REPL driver for LLMs. Supports PTY, TUI apps, and Tab completion."
+readme = "README.md"
+license = "MIT"
+authors = [
+  { name = "Maxime Rivest", email = "mrive052@gmail.com" },
+]
+keywords = [
+    "repl",
+    "pty",
+    "terminal",
+    "llm",
+    "mcp",
+    "autocomplete",
+    "tab-completion",
+    "tui",
+    "headless",
+    "automation"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Shells",
+    "Topic :: Terminals :: Terminal Emulators/X Terminals",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pyte>=0.8.1",
+    "psutil>=5.9.0",
+    "mcp>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/mrivest/brepl"
+Repository = "https://github.com/mrivest/brepl"
+Documentation = "https://github.com/mrivest/brepl#readme"
+Issues = "https://github.com/mrivest/brepl/issues"
+
+[project.scripts]
+brepl = "brepl.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
